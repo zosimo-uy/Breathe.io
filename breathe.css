@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: hover 0.55s;
+}
+
+.bg-dark{
+--bs-bg-opacity: 0.2;
+}
+
+.display-1{
+text-shadow: 0px 0px 12px #fff;
+}
+
+.d-block {
+object-fit: contain;
+border-style: ridge;
+border-radius: 10px;
+}
+
+.nav-link:hover {
+background-color: #ffffffa9;
+border-radius: 10px;
+transition: 0.65s;
+}
+
+.nav-link{
+  text-shadow: 0px 0px 12px #ffffff;
+}
+
+.display-2, .display-4{
+  text-shadow: 0px 0px 12px #fff;
+  text-align: center;
+}
+
+.card-header{
+  text-shadow: 0px 0px 12px #fff;
+}
+
+.bi{
+  text-shadow: 1px 1px 12px #000000;
+}
+
+.zors{
+  text-shadow: 0px 0px 12px #fff;
+  color: red;
+}
