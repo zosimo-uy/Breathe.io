@@ -25,24 +25,20 @@ border-radius: 10px;
 transition: 0.65s;
 }
 
-.nav-link{
-  text-shadow: 0px 0px 12px #ffffff;
-}
-
 .display-2, .display-4{
   text-shadow: 0px 0px 12px #fff;
   text-align: center;
 }
 
-.card-header{
+.card-header, .dropdown-item, .nav-link {
   text-shadow: 0px 0px 12px #fff;
 }
 
-.bi{
+.bi, .dropdown{
   text-shadow: 1px 1px 12px #000000;
 }
 
-.zors{
-  text-shadow: 0px 0px 12px #fff;
-  color: red;
+.btn:hover{
+  color: #fff;
+  text-shadow: 1px 1px 12px #ffffff;
 }
