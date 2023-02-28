@@ -37,9 +37,13 @@ a:hover{
   font-size: 18px;
   cursor: pointer;
 }
+
+a .dropdown-item:hover{
+  background-color: rgb(0, 0, 0);
+}
 </style>
 <body>
-  <div class="container">
+  <div class="container" id="Top">
     <nav class="navbar navbar-expand-md d-flex flex-row-reverse">
       <a href="index.html" class="navbar-brand">
         <img src="Gallery/yoga/brlogomain.jpeg" class="m-3 p-3 img-fluid rounded-5" alt="breathe logo">
@@ -307,7 +311,7 @@ a:hover{
   <!-- another carousel for stregnth content -->
   <div id="karosel6" class="carousel slide mx-5 my-3 p-5" data-bs-ride="carousel">
 
-    <div class="carousel-inner">
+    <div class="carousel-inner" id="strengthstart">
       <div class="carousel-item active" data-bs-interval="3000">
         <img src="Gallery/lift/s4.webp" class="d-block object-fit-contain w-100" alt="...">
       </div>
@@ -550,7 +554,7 @@ a:hover{
   <!-- carousel slider for aerobics content -->
   <div id="karosel7" class="carousel slide mx-5 my-3 p-5" data-bs-ride="carousel">
 
-    <div class="carousel-inner">
+    <div class="carousel-inner" id="aerostart">
       <div class="carousel-item active" data-bs-interval="3000">
         <img src="Gallery/aero/aero1.webp" class="d-block object-fit-cover w-100" alt="...">
       </div>
@@ -789,7 +793,19 @@ a:hover{
   </div>
 
 <!-- navigator -->
-
+    <nav id="navbar-example2" class="navbar bg-body-dark fixed-bottom px-3 mb-5">
+      <ul class="nav nav-pills">
+        <li class="nav-item dropup">
+          <a class="nav-link dropdown-toggle text-white bg-dark" title="Button to navigate"  data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Navigator</a>
+          <div class="dropdown-menu bg-dark">
+            <a  class="dropdown-item text-white" title="Navigate to Yoga Exercise" href="#Top">Back to Top</a>
+            <a  class="dropdown-item text-white" title="Navigate to Yoga Exercise" href="#yogaa">Yoga</a>
+            <a  class="dropdown-item text-white" title="Navigate to Yoga Strength" href="#strengthstart">Strength</a>
+            <a  class="dropdown-item text-white" title="Navigate to Yoga Aerobics"href="#aerostart">Aerobics</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
   <!-- FOOTER DETAILS FOR IMPROVEMENT -->
   <div class="card text-center bg-dark bg-gradient text-white">
     <div class="card-header h1">
