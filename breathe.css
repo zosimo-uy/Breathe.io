@@ -20,7 +20,7 @@ border-radius: 10px;
 }
 
 .nav-link:hover {
-background-color: #ffffff;
+background-color: rgba(0, 0, 0, 0.7);
 border-radius: 10px;
 transition: 0.25s;
 }
