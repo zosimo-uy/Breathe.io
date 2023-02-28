@@ -46,3 +46,11 @@ transition: 0.65s;
 .dropdown-menu a:hover{
   background-color: rgba(0, 0, 0, 0.7);
 }
+
+.meme{
+  max-width: 100%;
+}
+
+.meme .carousel-item{
+  max-width: 100%;
+}
