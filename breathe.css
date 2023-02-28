@@ -20,9 +20,9 @@ border-radius: 10px;
 }
 
 .nav-link:hover {
-background-color: #ffffffa9;
+background-color: #ffffff;
 border-radius: 10px;
-transition: 0.65s;
+transition: 0.25s;
 }
 
 .display-2, .display-4{
