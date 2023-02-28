@@ -54,3 +54,8 @@ transition: 0.65s;
 .meme .carousel-item{
   max-width: 100%;
 }
+
+.imahe{
+  width: 100px;
+  height: 130px;
+}
