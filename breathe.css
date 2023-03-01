@@ -24,6 +24,7 @@ border-radius: 10px;
 background-color: rgba(0, 0, 0, 0.7);
 border-radius: 10px;
 transition: 0.25s;
+width: fit-content;
 }
 
 .display-2, .display-4{
@@ -83,5 +84,9 @@ transition: 0.25s;
   background-color: rgba(255, 254, 254, 0.9);
   color: #000;
   border-radius: 20px;
+  width: fit-content;
 }
 
+.meme6:hover{
+  background-color: #000;
+}
