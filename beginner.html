@@ -39,15 +39,16 @@ a:hover{
 }
 
 a .dropdown-item:hover{
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0,0.7);
 }
+
 </style>
 <body>
   <!-- nav area -->
   <div class="container" id="Top">
     <nav class="navbar navbar-expand-md d-flex flex-row-reverse">
       <a href="index.html" class="navbar-brand">
-        <img src="Gallery/yoga/brlogomain.jpeg" class="imahe m-3 p-3 img-fluid rounded-5" alt="breathe logo">
+        <img src="Gallery/yoga/brlogomain.jpeg" class="imahe p-2 img-fluid rounded-5" alt="breathe logo">
       </a>
       <button class="navbar-toggler bg-light border-white" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarbreathe" aria-controls="navbarbreathe" 
@@ -58,21 +59,20 @@ a .dropdown-item:hover{
       <div class="collapse navbar-collapse" id="navbarbreathe">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-white mx-3 fs-5" href="index.html">Home</a>
+            <a class="nav-link text-white mx-2 fs-5" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mx-3 fs-5 " href="featured.html">Featured</a>
+            <a class="nav-link text-white mx-2 fs-5 " href="featured.html">Featured</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mx-3 fs-5" href="gallery.html">Gallery</a>
+            <a class="nav-link text-white mx-2 fs-5" href="gallery.html">Gallery</a>
           </li>
           <li class="nav-item">
-            <div class="dropdown">
-              <button class="btn bg-dark dropdown-toggle text-white mx-3 fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="dropdown meme4">
+              <button class="btn dropdown-toggle text-white text-bg-dark mx-3 fs-5 active" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
                 Contents
               </button>
-
-                <ul class="dropdown-menu bg-dark">
+              <ul class="dropdown-menu bg-dark">
                 <li><a class="dropdown-item text-white" href="#yogastart">Yoga</a></li>
                 <li><a class="dropdown-item text-white" href="#Strength">Strength Training</a></li>
                 <li><a class="dropdown-item text-white" href="#Aerobics">Aerobics</a></li>
@@ -80,7 +80,7 @@ a .dropdown-item:hover{
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white mx-3 fs-5" href="about.html">About Us</a>
+            <a class="nav-link text-white mx-2 fs-5" href="about.html">About Us</a>
           </li>
         </ul>
       </div>
@@ -768,9 +768,9 @@ a .dropdown-item:hover{
 
 <!-- navigator -->
     <nav id="navbar-example2" class="navbar bg-body-dark fixed-bottom px-3 mb-5">
-      <ul class="nav nav-pills">
+      <ul class="nav nav-pills meme2">
         <li class="nav-item dropup">
-          <a class="nav-link dropdown-toggle text-white bg-dark" title="Button to navigate"  data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Navigator</a>
+          <a class="nav-link dropdown-toggle meme3 bg-dark" title="Button to navigate"  data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Navigator</a>
           <div class="dropdown-menu bg-dark">
             <a  class="dropdown-item text-white" title="Navigate to Yoga Exercise" href="#Top">Back to Top</a>
             <a  class="dropdown-item text-white" title="Navigate to Yoga Exercise" href="#yogaa">Yoga</a>

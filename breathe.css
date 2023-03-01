@@ -19,7 +19,7 @@ border-style: ridge;
 border-radius: 10px;
 }
 
-.nav-link:hover {
+.nav-link:hover, .meme4:hover{
 background-color: rgba(0, 0, 0, 0.7);
 border-radius: 10px;
 transition: 0.25s;
@@ -59,3 +59,14 @@ transition: 0.25s;
   width: 100px;
   height: 130px;
 }
+
+.meme3{
+  color: #fff;
+}
+.meme2:hover{
+  background-color: white;
+  text-shadow: 0px 0px 11px #fff;
+  border-radius: 8px;
+  transition: 0.25s;
+}
+
