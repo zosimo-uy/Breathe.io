@@ -27,7 +27,7 @@
   <div class="container">
     <nav class="navbar navbar-expand-md d-flex">
       <a href="index.html" class="navbar-brand">
-        <img src="Gallery/yoga/brlogomain.jpeg" class="imahe p-2 m-3 img-fluid rounded-5" alt="breathe logo">
+        <img src="Gallery/yoga/brlogomain.jpeg" class="imahe p-2 m-3 img-fluid rounded-5" alt="breathe logo" id="topabout">
       </a>
       <button class="navbar-toggler bg-light border-dark" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarbreathe" aria-controls="navbarbreathe" 
@@ -66,7 +66,7 @@
   </div>
 
   <div class="row col-lg mx-3 bg-dark text-white rounded-4 fs-5 mt-3">
-    <H2 class="display-1 text-center">All about <b>Breathe</b></H2>
+    <H2 class="display-1 text-center" id="breathe">All about <b>Breathe</b></H2>
       <p>We all know this era of technology made us busy at all times. 
         People are working 8 hours on their desk in their office or even 
         at home. There are also people that has free time and spend a lot 
@@ -89,19 +89,32 @@
   </div>
 
   <div class="row col-lg mx-3 bg-dark text-white rounded-4 fs-5 my-3">
-    <H2 class="display-1 text-center"><b>Mission</b></H2>
+    <H2 class="display-1 text-center" id="mission"><b>Mission</b></H2>
       <p>Our mission at Breathe E-Magazine is to empower desk-bound and work-from-home professionals by 
       providing them with easy-to-follow exercise tips that they can incorporate into their daily routines.
       Our aim is to help individuals improve their physical health, mental well-being, and overall productivity.
       </p>
       <br><br>
-      <H2 class="display-1 text-center"><b>Vision</b></H2>
+      <H2 class="display-1 text-center" id="vision"><b>Vision</b></H2>
       <p>Our vision is to be the go-to source of information for individuals who want to stay fit and healthy 
         despite their sedentary work lifestyle. We strive to create a community of like-minded individuals who 
         are passionate about taking care of their bodies and minds. We envision a world where people prioritize 
         their health and well-being, and where exercise is seen as an essential part of everyone's daily routine.
       </p>
   </div>
+
+  <nav id="navbar-example2" class="navbar bg-body-dark fixed-bottom px-3 mb-5">
+    <ul class="nav nav-pills meme2">
+      <li class="nav-item dropup">
+        <a class="nav-link dropdown-toggle meme3 bg-dark" title="Button to navigate" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Navigator</a>
+        <div class="dropdown-menu meme5">
+          <a  class="dropdown-item" title="Navigate to Top" href="#topabout">Back to Top</a>
+          <a  class="dropdown-item" title="Navigate to Yoga" href="#breathe">About Breathe</a>
+          <a  class="dropdown-item" title="Navigate to Yoga" href="#mission">Mission & Vision</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
 
 <!-- FOOTER DETAILS -->
     <div class="card text-center bg-dark bg-gradient text-white">
