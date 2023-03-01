@@ -19,7 +19,8 @@ border-style: ridge;
 border-radius: 10px;
 }
 
-.nav-link:hover, .meme4:hover{
+
+.nav-link:hover{
 background-color: rgba(0, 0, 0, 0.7);
 border-radius: 10px;
 transition: 0.25s;
@@ -66,7 +67,21 @@ transition: 0.25s;
 .meme2:hover{
   background-color: white;
   text-shadow: 0px 0px 11px #fff;
-  border-radius: 8px;
+  border-radius: 10px;
   transition: 0.25s;
+}
+
+.meme5, .meme4{
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px
+}
+
+.meme5 a, .meme4 a{
+  color: #fff;
+}
+.meme5 a:hover, .meme4 a:hover{
+  background-color: rgba(255, 254, 254, 0.9);
+  color: #000;
+  border-radius: 20px;
 }
 
